@@ -94,7 +94,7 @@ a{
     background-color: rgba(221, 211, 211, 0.7);
     border-radius: 20px;
     text-align: center;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .Zaw1{
