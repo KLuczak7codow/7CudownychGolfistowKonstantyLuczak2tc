@@ -540,6 +540,10 @@ a{
   /* Hide the images by default */
   .mySlides {
     display: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .mySlides img{
     max-width: 25vw;
