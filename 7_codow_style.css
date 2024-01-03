@@ -1,0 +1,761 @@
+html, body{
+    margin: 0;
+}
+
+
+.logo{
+    width: 100%;
+    height: 215px;
+    background-image: url(Media/LOGO.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-style: none;
+    margin-top: 0;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(107, 106, 106);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.Menu{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    background-color: rgba(221, 211, 211, 0.7);
+    border-radius: 20px;
+}
+footer{
+    color: rgb(189, 184, 184);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    size: 20px;
+    background-color: rgb(26, 117, 41);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+a{
+    color: rgb(107, 106, 106);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.link1{
+    position:absolute;
+    bottom: 2px;
+    text-align: center;
+    left: calc(100% * 0.05);
+}
+.link2{
+    position:absolute;
+    bottom: 2px;
+    text-align: center;
+    left: calc(100% * 0.35);
+}
+.link3{
+    position:absolute;
+    bottom: 2px;
+    text-align: center;
+    right: calc(100% * 0.35);
+}
+.link4{
+    position:absolute;
+    bottom: 2px;
+    text-align: center;
+    right: calc(100% * 0.05);
+}
+.tresc{
+    width: 100%;
+    height: calc(100% - 265px);
+    background-image: url(Media/Tresc\(tlo\).jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    border-style: none;
+    margin-top: 215px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+    transition: 0.3s;
+}
+.Zaw1, .Zaw2, .Zaw3, .Zaw4, .Zaw5, .Zaw6, .Zaw7{
+    height: 68vh;
+    width: 12%;
+    float: left;
+    margin-top: 0;
+    position: absolute;
+    background-color: rgba(221, 211, 211, 0.7);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Zaw1{
+    left: 2%;
+}
+.Zaw2{
+    left: 16%;
+}
+.Zaw3{
+    left: 30%;
+}
+.Zaw4{
+    left: 44%;
+}
+.Zaw5{
+    left: 58%;
+}
+.Zaw6{
+    left: 72%;
+}
+.Zaw7{
+    left: 86%;
+}
+.Profil{
+    width: 96%;
+    left: 2%;
+}
+.Opis{
+    height: calc(56vh * 0.6);
+    font-size: calc(10px + 0.3vw);
+    color: rgb(107, 106, 106);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 96%;
+    left: 2%;
+
+}
+.Nazwisko{
+    font-size: calc(10px + 1vw);
+    color: rgb(107, 106, 106);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 96%;
+    left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 100%;
+        height: 215px;
+        background-image: url(Media/LOGO.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-style: none;
+        margin-top: 0;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 8px;
+    }
+    .Menu{
+        width: 60%;
+        height: auto;
+        position: absolute;
+        background-color: rgba(221, 211, 211, 0.7);
+        border-radius: 20px;
+    }
+    footer{
+        color: rgb(189, 184, 184);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        size: 20px;
+        background-color: rgb(26, 117, 41);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    a{
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .link1{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        left: calc(100% * 0.05);
+        font-size: 10px;
+        margin-top: 100px;
+    }
+    .link2{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        left: calc(100% * 0.35);
+        font-size: 10px;
+    }
+    .link3{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        right: calc(100% * 0.35);
+        font-size: 10px;
+    }
+    .link4{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        right: calc(100% * 0.05);
+        font-size: 10px;
+    }
+    .tresc{
+        width: 100%;
+        height: calc(100% - 265px);
+        background-image: url(Media/Tresc\(tlo\).jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-style: none;
+        margin-top: 215px;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        float: left;
+        transition: 0.3s;
+    }
+    .Zaw1, .Zaw2, .Zaw3, .Zaw4, .Zaw5, .Zaw6, .Zaw7{
+        height: 68vh;
+        width: 12%;
+        float: left;
+        margin-top: 0;
+        position: absolute;
+        background-color: rgba(221, 211, 211, 0.7);
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .Zaw1{
+        left: 2%;
+    }
+    .Zaw2{
+        left: 16%;
+    }
+    .Zaw3{
+        left: 30%;
+    }
+    .Zaw4{
+        left: 44%;
+    }
+    .Zaw5{
+        left: 58%;
+    }
+    .Zaw6{
+        left: 72%;
+    }
+    .Zaw7{
+        left: 86%;
+    }
+    .Profil{
+        width: 96%;
+        left: 2%;
+    }
+    .Opis{
+        height: calc(56vh * 0.6);
+        font-size: calc(8px + 0.3vw);
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 96%;
+        left: 2%;
+        margin-top: 0px;
+    
+    }
+    .Nazwisko{
+        font-size: calc(8px + 1vw);
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 96%;
+        left: 2%;
+        margin-top: 5px;
+    }
+    .tresc br {
+        display: none;
+    }
+    .Profil{
+        display: none;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    .logo{
+        width: 100%;
+        height: 215px;
+        background-image: url(Media/LOGO.jpeg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-style: none;
+        margin-top: 0;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color: rgb(0, 0, 0);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 8px;
+    }
+    .Menu{
+        width: 60%;
+        height: auto;
+        position: absolute;
+        background-color: rgba(221, 211, 211, 0.7);
+        border-radius: 20px;
+    }
+    footer{
+        color: rgb(189, 184, 184);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        size: 20px;
+        background-color: rgb(26, 117, 41);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    a{
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .link1{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        left: calc(100% * 0.05);
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    .link2{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        left: calc(100% * 0.35);
+        font-size: 12px;
+    }
+    .link3{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        right: calc(100% * 0.35);
+        font-size: 12px;
+    }
+    .link4{
+        position:absolute;
+        bottom: 2px;
+        text-align: center;
+        right: calc(100% * 0.05);
+        font-size: 12px;
+    }
+    .tresc{
+        width: 100%;
+        height: calc(100% - 265px);
+        background-image: url(Media/Tresc\(tlo\).jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-style: none;
+        margin-top: 215px;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        float: left;
+        transition: 0.3s;
+    }
+    .Zaw1, .Zaw2, .Zaw3, .Zaw4, .Zaw5, .Zaw6, .Zaw7{
+        height: 68vh;
+        width: 12%;
+        float: left;
+        margin-top: 0;
+        position: absolute;
+        background-color: rgba(221, 211, 211, 0.7);
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .Zaw1{
+        left: 2%;
+    }
+    .Zaw2{
+        left: 16%;
+    }
+    .Zaw3{
+        left: 30%;
+    }
+    .Zaw4{
+        left: 44%;
+    }
+    .Zaw5{
+        left: 58%;
+    }
+    .Zaw6{
+        left: 72%;
+    }
+    .Zaw7{
+        left: 86%;
+    }
+    .Profil{
+        width: 96%;
+        left: 2%;
+    }
+    .Opis{
+        height: calc(56vh * 0.6);
+        font-size: calc(8px + 0.3vw);
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 96%;
+        left: 2%;
+        margin-top: 0px;
+    
+    }
+    .Nazwisko{
+        font-size: calc(9px + 1vw);
+        color: rgb(107, 106, 106);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 96%;
+        color: black;
+        font-weight: bold;
+        left: 2%;
+        margin-top: 5px;
+    }
+    .tresc br {
+        display: none;
+    }
+    .Profil{
+        display: none;
+    }
+}
+
+/* Responsywność dla komputerów */
+
+@media only screen and (min-width: 1201px) {
+    .tresc {
+        margin-top: 215px;
+    }
+    
+    .Zaw1, .Zaw2, .Zaw3, .Zaw4, .Zaw5, .Zaw6, .Zaw7 {
+        width: 12%;
+        float: left;
+        margin-top: 0;
+    }
+    
+    .Zaw1 {
+        left: 2%;
+    }
+    
+    .Zaw2 {
+        left: 16%;
+    }
+    
+    .Zaw3 {
+        left: 30%;
+    }
+    
+    .Zaw4 {
+        left: 44%;
+    }
+    
+    .Zaw5 {
+        left: 58%;
+    }
+    
+    .Zaw6 {
+        left: 72%;
+    }
+    
+    .Zaw7 {
+        left: 86%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .Zaw1, .Zaw2, .Zaw3, .Zaw4, .Zaw5, .Zaw6, .Zaw7{
+        height: 9vh;
+        width: 96%;
+        left: 2%;
+        float: left;
+        position: absolute;
+        background-color: rgba(221, 211, 211, 0.7);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .Zaw1{
+        bottom: 62vh;
+    }
+    .Zaw2{
+        bottom: 52vh;
+    }
+    .Zaw3{
+        bottom: 42vh;
+    }
+    .Zaw4{
+        bottom: 32vh;
+    }
+    .Zaw5{
+        bottom: 22vh;
+    }
+    .Zaw6{
+        bottom: 12vh;
+    }
+    .Zaw7{
+        bottom: 2vh;
+    }
+    img{
+        display: none;
+    }
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .mySlides img{
+    max-width: 25vw;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 750px;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 10%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .tresc2{
+    background-color: rgb(26, 117, 41);
+    width: 100%;
+    height: calc(100% - 265px);
+    background-size:cover;
+    border-style: none;
+    margin-top: 215px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+    transition: 0.3s;
+  }
+
+  .row{
+    margin-left: 430px;
+  }
+
+  @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Zaw1 {
+    animation: fadeInUp 1s ease-in-out;
+}
+.Zaw2 {
+    animation: fadeInUp 2s ease-in-out;
+}
+.Zaw3 {
+    animation: fadeInUp 3s ease-in-out;
+}
+.Zaw4 {
+    animation: fadeInUp 4s ease-in-out;
+}
+.Zaw5 {
+    animation: fadeInUp 5s ease-in-out;
+}
+.Zaw6 {
+    animation: fadeInUp 6s ease-in-out;
+}
+.Zaw7 {
+    animation: fadeInUp 7s ease-in-out;
+}
+
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.lista{
+    width: 48.5%;
+    position: relative;
+    float: left;
+    height: 68vh;
+    margin-left: 1%;
+    background-color: rgba(221, 211, 211, 0.7);
+}
+li{
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 36%;
+
+}
+.tabela{
+    width: 48.5%;
+    position: relative;
+    float: left;
+    height: 68vh;
+    margin-left: 0.5%;
+    background-color: rgba(221, 211, 211, 0.7);
+    border-style: none;
+}
+table, tr, td{
+    border-style: solid;
+    border-color: black;
+}
+table{
+    margin-left: 15%;
+    margin-top: 15vh
+}
+.Ranking-nazwisko{
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Ranking-wszystkie{
+    margin-right: 10px;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="checkbox"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}

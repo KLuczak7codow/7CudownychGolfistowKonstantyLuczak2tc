@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLFIŚCI</title>
+    <link rel="stylesheet" type="text/css" href="7_codow_style.css">
+</head>
+<body>
+    <div class="logo">
+        <div class="Menu">
+            <h1>GALERIA</h1><br>
+            <a href="Index.html" class="link1">GŁÓWNA</a>
+            <a href="Galeria.html" class="link2">GALERIA</a>
+            <a href="Ranking.html" class="link3">RANKING</a>
+            <a href="Formularz.html" class="link4">FORMULARZ</a>
+            
+        </div>
+    </div>
+    
+    <div class="tresc2">
+        <div class="container">
+            <div class="mySlides">
+              <div class="numbertext">1 / 7</div>
+                <img src="Media/Freddie2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 7</div>
+                <img src="Media/jack2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 7</div>
+                <img src="Media/Phil2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">4 / 7</div>
+                <img src="Media/spieth2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">5 / 7</div>
+                <img src="Media/tiger2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">6 / 7</div>
+                <img src="Media/Hary2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 7</div>
+                  <img src="Media/rory2.jpg" style="width:100%">
+              </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="Media/Freddie2.jpg" style="width:100%" onclick="currentSlide(1)" alt="Freddie Couples">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Media/jack2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Jack Nicklaus">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Media/Phil2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Phil Mickelson">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Media/spieth2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Jordan Spieth">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Media/tiger2.jpg" style="width:100%" onclick="currentSlide(5)" alt="Tiger Woods">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Media/Hary2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Hary Vardon">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="Media/rory2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Rory McIlroy">
+              </div>
+            </div>
+          </div>
+          
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+            }      
+    </script>
+    <footer><p>Konstanty Łuczak 2tc</p></footer>
+</body>
+</html>
