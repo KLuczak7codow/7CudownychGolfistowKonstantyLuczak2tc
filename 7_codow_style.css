@@ -547,7 +547,7 @@ a{
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-left: 750px;
+    align-items: center;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
